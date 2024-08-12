@@ -1,0 +1,20 @@
+{
+  "name": "asrorbek/items",
+  "description": "Items of collection",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "asror",
+      "email": "asrorbek0325@gmail.com"
+    }
+  ],
+  "require": {
+    "ext-pdo": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "App\\": "src/"
+    }
+  }
+}
